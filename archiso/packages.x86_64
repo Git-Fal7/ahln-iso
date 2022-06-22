@@ -167,7 +167,7 @@ xf86-video-nouveau
 ##### lightdm display manager
 
 lightdm
-lightdm-slick-greeter
+lightdm-gtk-greeter
 
 ##### want to have base-devel group
 
@@ -182,12 +182,11 @@ lightdm-slick-greeter
 pulseaudio
 polkit-gnome
 network-manager-applet
-lightdm-settings
+lightdm-gtk-greeter-settings
 mint-themes
 mint-y-icons
 mint-x-icons
 xfce4
-#xfce4-goodies
 xfce4-docklike-plugin
 xfce4-zorinmenulite-plugin
 xfce4-pulseaudio-plugin
