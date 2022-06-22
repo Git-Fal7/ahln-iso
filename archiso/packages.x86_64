@@ -1,20 +1,14 @@
 alsa-utils
 amd-ucode
-arch-install-scripts
-archinstall
 b43-fwcutter
 base
-bind
 brltty
 broadcom-wl
 btrfs-progs
-clonezilla
-cloud-init
 cryptsetup
 darkhttpd
 ddrescue
 dhclient
-dhcpcd
 diffutils
 dmidecode
 dmraid
@@ -46,7 +40,6 @@ iwd
 jfsutils
 kitty-terminfo
 less
-lftp
 libfido2
 libusb-compat
 linux
@@ -77,19 +70,16 @@ ntfs-3g
 nvme-cli
 open-iscsi
 open-vm-tools
-openconnect
 openssh
 openvpn
 partclone
 parted
 partimage
-pcsclite
 ppp
 pptpclient
 pv
 qemu-guest-agent
 refind
-reflector
 reiserfsprogs
 rp-pppoe
 rsync
@@ -112,7 +102,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+#vim
 virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
@@ -122,7 +112,8 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-
+gvfs
+xdg-user-dirs
 
 # everything above comes from archiso releng folder
 #######################################################
@@ -134,38 +125,24 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-alci-dwm
-#alci-dwm-nemesis
-alci-calamares
-#alci-calamares-dev
-alci-calamares-config
-#alci-calamares-config-btrfs
-#alci-calamares-config-dev
-#alci-calamares-config-hardened
-#alci-calamares-config-lts
-#alci-calamares-config-pure
-#alci-calamares-config-xanmod-edge
-#alci-calamares-config-zen
-xterm
+ahln-calamares
+ahln-calamares-config
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
-sddm
 bash-completion
 os-prober
-dex
 libxinerama
 make
 xorg-xkill
-xterm
 xorg-xrdb
 mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
-#networkmanager
-#network-manager-applet
+
+networkmanager
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -173,44 +150,24 @@ mkinitcpio-openswap
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
-#neofetch
-
+xorg-server
 
 ##### Drivers for graphical cards
 
-#driver for virtualbox - xf86-video-vmware is dependency
-#systemctl enable vboxservice
-#systemctl start vboxservice
-#to have fullscreen
 #virtualbox-guest-utils
 
-#xf86-video-intel
-#xf86-video-amdgpu
-#xf86-video-nouveau
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
 
 #nvidia
 #nvidia-settings
 #nvidia-utils
 
-
-
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
-
-##### sddm display manager
-
-#sddm
-#alci-sddm-plasma-archpaint
-
-##### gdm display manager
-
-#gdm
-
-
+lightdm
+lightdm-slick-greeter
 
 ##### want to have base-devel group
 
@@ -220,49 +177,25 @@ mkinitcpio-openswap
 
 #linux-headers
 
+#### desktop
 
-
-##### want to have a desktop
-
-#test
-#xfce4
+pulseaudio
+polkit-gnome
+network-manager-applet
+lightdm-settings
+mint-themes
+mint-y-icons
+mint-x-icons
+xfce4
 #xfce4-goodies
-#neofetch
-
-
-##### want to add/use the ArcoLinux repos
-
-#arcolinux-mirrorlist-git
-#arcolinux-keyring
-
-#test
-#arcolinux-wallpapers-git
-
-##### want to add/use the Chaotic repo
-
-#chaotic-mirrorlist
-#chaotic-keyring
-
-#test
-#xcursor-sweet
-
-
-##### want to add/use your local repo packages
-##### create your packages and put them in the local repo
-
-#There is a copy of the local repo in your folder
-#Copy/paste it to your homefolder
-#Change the name erik to your own username
-#update the database
-
-#test
-#nemesis-wallpapers
-
-
-#### want have a btrfs format
-#### use alci-calamares-config-btrfs 
-
-#timeshift
-#grub-btrfs
-#timeshift-autosnap
-git
+xfce4-docklike-plugin
+xfce4-zorinmenulite-plugin
+xfce4-pulseaudio-plugin
+xfce4-xkb-plugin
+pavucontrol
+htop
+neofetch
+ttf-ubuntu-font-family
+qt5-styleplugins-gtk
+qt5ct
+mugshot
