@@ -78,13 +78,10 @@ partimage
 ppp
 pptpclient
 pv
-qemu-guest-agent
 refind
 reiserfsprogs
 rp-pppoe
 rsync
-rxvt-unicode-terminfo
-screen
 sdparm
 sg3_utils
 smartmontools
@@ -102,7 +99,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-#vim
 virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
@@ -179,7 +175,12 @@ lightdm-gtk-greeter
 
 #### desktop
 
-pulseaudio
+ahln-grub-theme
+
+wireplumber
+pipewire-pulse
+pipewire-alsa
+
 polkit-gnome
 network-manager-applet
 lightdm-gtk-greeter-settings
